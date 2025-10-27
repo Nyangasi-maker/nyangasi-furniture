@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Dashboard</title>
+
+    <style>
+        h2 {
+            font-size: 30px;
+            font-family: sans-serif;
+        }
+        table {
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          width: 50%;  
+          border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            text-align: left;
+            padding: 10px;
+        }
+        input[type=submit] {
+            background-color: rgb(184, 194, 190);
+            padding: 10px;
+            border-radius: 40px;
+            color: rgb(22, 7, 7) ;
+            font-weight:bolder ;
+            font-size: 20px;
+            
+        }
+        
+        label {
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        select {
+            font-size: 20px;
+        }
+    </style>
+    </head>
+    <body>
+
+        <h2>Bei zetu</h2>
+
+        <table>
+            
+                <tr>
+                    <th>BIDHAA</th>
+                    <th>GHARAMA ZETU</th>                  
+                </tr>
+                <tr>
+                    <td>SOFA LA MTU MMOJA</td>
+                    <td>TSH 100,000/=</td>
+                </tr>
+                <tr>
+                    <td>SOFA LA WATU WAWILI</td>
+                    <td> TSH 210,000/=</td>
+                </tr>
+                <tr>
+                    <td>SOFA LA WATU WATATU</td>
+                    <td>TSH 290,000/=</td>
+                </tr>
+                <tr>
+                    <td>SOFA LA WATU WANNE</td>
+                    <td>TSH 390,000/= </td>
+                </tr>
+                <tr>
+                    <td>SOFA FULL SETI</td>
+                    <td>TSH 500,000/=</td>
+                </tr>
+                <tr>
+                    <td>BED SOFA 5X6</td>
+                    <td>TSH 240,000/=</td>
+                </tr>
+                <tr>
+                    <td>BED SOFA 4X6</td>
+                    <td>TSH 200,000/=</td>
+                </tr>
+
+            
+        </table>
+    <hr><br><br>
+
+    <h2>Jaza fomu hapa ili kuagiza bidhaa zetu</h2>
+    <form>
+       <label for="bidhaa">AINA YA BIDHAA:   </label>
+       <select id="bidhaa" name="bidhaa">
+        <option value="MMOJA">KOCHI LA MTU MMOJA</option>
+        <option value="WAWILI">KOCHI LA WATU WAWILI</option>
+        <option value="WATATU">KOCHI LA WATU WATATU</option>
+        <option value="WANNE">KOCHI LA WATU WANNE</option>
+        <option value="SETI">FULL SETI</option>
+        <option value="4x6">BED SOFA 4X6</option>
+        <option value="5x6">BED SOFA 5X6</option>
+       </select> 
+       <br>
+       <br>
+       <label for="idadi">IDADI YA BIDHAA: </label>
+       <select id="idadi" name="idadi">
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="7">7</option>
+        <option value="8">8</option>
+        <option value="9">9</option>
+        <option value="10">10</option>
+       </select>
+       <br><br>
+       <input type="submit" value="AGIZA SASA"> 
+    </form>
+<br><br>
+<a href="logout.php">Logout</a>
+
+
+    </body>
+</html>
